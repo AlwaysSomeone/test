@@ -6,7 +6,7 @@ class Settings(object):
     def __init__(self):
         self.vocab_size = 16691
         self.num_steps = 70
-        self.num_epochs = 10
+        self.num_epochs = 20
         self.num_classes = 12
         self.gru_size = 230
         self.keep_prob = 0.5

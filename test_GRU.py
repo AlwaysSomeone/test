@@ -83,7 +83,7 @@ def main_for_evaluation():
         
             #testlist = range(1000, 1800, 100)
             #testlist = [9000]
-            testlist = [550,600,650,700,750,800,850]
+            testlist = [1100,1200,1300]
             
             for model_iter in testlist:
                 # for compatibility purposes only, name key changes from tf 0.x to 1.x, compat_layer
