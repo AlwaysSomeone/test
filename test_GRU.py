@@ -112,6 +112,8 @@ def main_for_evaluation():
                 allprob = np.reshape(np.array(allprob), (-1))
                 order = np.argsort(-allprob)
 
+                print(str(model_iter) + '次训练结果')
+                print('准确率' + str(sum(acc) / len(acc)))
                 print('saving all test result...')
                 current_step = model_iter
 
