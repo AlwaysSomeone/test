@@ -123,7 +123,7 @@ def main(_):
 
                     current_step = tf.train.global_step(sess, global_step)
                     #11000/50*10 =2000
-                    if current_step > 1000 and current_step % 100 == 0:
+                    if current_step > 500 and current_step % 50 == 0:
                         print('saving model')
                         path = saver.save(sess, save_path + 'ATT_GRU_model', global_step=current_step)
                         tempstr = 'have saved model to ' + path
